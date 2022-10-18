@@ -86,7 +86,7 @@ $\color{blue}{蓝色字}$
 $\color{#00dd00}{浅绿色字}$  
 $\color{#660066}{深紫色字}$  
 <font color=red>红色字</font>  
-<font color=#00ff00>绿色字</font>  
+<font color=#00ff00>蓝色字</font>  
 ```
 $\color{red}{红色字}$  
 $\color{green}{绿色字}$  
