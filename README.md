@@ -82,11 +82,10 @@ Markdown 的标题和 HTML 的标题一致，分为 6 级。分别在开头放 1
 ```
 $\color{red}{红色字}$  
 $\color{green}{绿色字}$  
-$\color{blue}{蓝色字}$  
 $\color{#00dd00}{浅绿色字}$  
 $\color{#660066}{深紫色字}$  
-<font color=red>红色字</font>  
-<font color=#00ff00>蓝色字</font>  
+<font color=YellowGreen>黄绿色字</font>  
+<font color=#0000ff>蓝色字</font>
 ```
 $\color{red}{红色字}$  
 $\color{green}{绿色字}$  
