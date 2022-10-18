@@ -92,7 +92,7 @@ Markdown 的标题和 HTML 的标题一致，分为 6 级。分别在开头放 1
 ## 3.3 粗斜体
 在需要加粗斜体的文本前后添加三个星号 `*` 或下划线 `*` 可以倾斜并加粗文本,或者两者混合使用。`<strong><em>这是粗斜体</em></strong>`
 ## 3.4 下划线
-由于 Markdown 无下划线语法，但支持 HTML 语言，可以向文本添加下划线。`<u>这是下划线<u>`
+由于 Markdown 无下划线语法，但支持 HTML 语言，可以向文本添加下划线。`<u>这是下划线</u>`
 ## 3.5 删除线
 在需要删除线的文本前后添加两个波浪 `~`。`<s>带删除线的字</s>`  
 | Markdown           | 预览                                 |
@@ -105,9 +105,9 @@ Markdown 的标题和 HTML 的标题一致，分为 6 级。分别在开头放 1
 | `__*这是粗体*__`   |                                      |
 | `___这是粗斜体___` |                                      |
 | `***这是粗斜体***` |                                      |
-| `<u>这是下划线<u>` | <u>这是下划线<u>                     |
+| `<u>这是下划线<u>` | <u>这是下划线</u>                     |
 | `~~带删除线的字~~` | <s>带删除线的字</s>                  |
-> 以下都不这么支持简单编写
+> 以下都不怎么支持简单编写
 ## 3.6 字体
 字体类型的设置只能在电脑上才能显示字体效果，在手机上无法显示字体类型。  
 ```
@@ -382,15 +382,15 @@ int main()
 ![这是一个图片](/resource/test.jpg)
 ## 11.2 带title的图片
 ```
-![这是一个图片](/resource/test.jpg "这是一个好看的图片")
+![这是一个图片](https://github.com/Spray-echo/Markdown/tree/main/resource/resource/test.jpg "这是一个好看的图片")
 ```
-![这是一个图片](/resource/test.jpg "这是一个好看的图片")
+![这是一个图片](https://github.com/Spray-echo/Markdown/tree/main/resource/resource/test.jpg "这是一个好看的图片")
 ## 11.3 带链接的图片
 把生成图片的代码放到了超链接的名称里面。
 ```
-[![这是一个图片](/resource/test.jpg)](https://github.com/Spray-echo/Markdown/tree/main/resource "图片所在位置")
+[![这是一个图片](https://github.com/Spray-echo/Markdown/tree/main/resource/resource/test.jpg)](https://github.com/Spray-echo/Markdown/tree/main/resource "图片所在位置")
 ```
-[![这是一个图片](/resource/test.jpg)](https://github.com/Spray-echo/Markdown/tree/main/resource "图片所在位置")
+[![这是一个图片](https://github.com/Spray-echo/Markdown/tree/main/resource/resource/test.jpg)](https://github.com/Spray-echo/Markdown/tree/main/resource "图片所在位置")
 
 
 # 十二、注释、脚注
@@ -402,7 +402,7 @@ Markdown 本身是不支持注释的，但大部分的 Markdown 编辑器或解�
 注释内容将会被隐藏：<!-- 注释内容 -->体现在文字中像这样。
 ## 12.2 脚注
 脚注类似于参考文献或补充说明，统一出现的文档的最后，可在文中任意位置引用。
-> 脚注并非所有 Markdown 解析器都支持。
+> 脚注并非所有 Markdown 解析器都支持。  
 脚注的定义语法为： `[^名称]: 内容` : `[^1]: 引用的脚注的具体内容.`   
 脚注的引用语法为：`[^名称]` : `[^1]`[^1]比如上面的`1`就是引用的脚注，点击可以跳转到下面的脚注内容。  
 ## 12.3 行内脚注
