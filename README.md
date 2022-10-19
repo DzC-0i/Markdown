@@ -400,6 +400,11 @@ int main()
 [![这是一个图片](/resource/test.jpg)](https://github.com/Spray-echo/Markdown/tree/main/resource "图片所在位置")
 ```
 [![这是一个图片](/resource/test.jpg)](https://github.com/Spray-echo/Markdown/tree/main/resource "图片所在位置")
+> **注意**：填写本地图片地址时要用相对地址，绝对地址测试不行。  
+> > Markdown所在位置 `/test/test1/README.md`   
+> > 图片所在位置 `/test/test1/resource/test.jpg` 和 `/test/test2/resource/test.jpg`  
+> > > 访问下级目录可以直接输入本级目录以后的地址 `/resource/test.jpg`  
+> > > 访问上级目录可以在前方加两个 `.` ，`../test2/resource/test.jpg`  
 
 
 # 十二、注释、脚注
