@@ -58,6 +58,10 @@
   - [13.1 行内公式](#131-行内公式)
   - [13.2 块公式](#132-块公式)
 - [十四、图表](#十四图表)
+  - [14.1 流程图](#141-流程图)
+    - [14.1.1 线形](#1411-线形)
+  - [14.2 饼图](#142-饼图)
+  - [14.3 甘特图](#143-甘特图)
 - [十五、Emoji表情](#十五emoji表情)
 # 一、标题
 ## 1.1 常用语法
@@ -454,11 +458,139 @@ $$
 f(x) = \int_{-\infty}^\infty
     \hat{f}(\xi)\,e^{2 \pi i \xi x}\,d\xi
 $$
-> 公式的语法可以参考[LaTex语法]
+> 公式的语法可以参考[LaTex语法](https://webdemo.myscript.com/views/math/index.html "这是个直接转换的网站")。
 
 
 # 十四、图表
+## 14.1 流程图
+````
+```flow
+st=>start: 开始
+op=>operation: 操作
+cond=>condition: 判断
+e=>end
 
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+````
+```flow
+st=>start: 开始
+op=>operation: 操作
+cond=>condition: 判断
+e=>end: 结束
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+````
+```mermaid
+flowchart LR
+    A[直角矩形] -->|链接文本| B(圆角矩形)
+    B --> C{选择}
+    C -->|一| D[结果一]
+    C -->|二| E[结果二]
+```
+````
+```mermaid
+flowchart LR
+    A[直角矩形] -->|链接文本| B(圆角矩形)
+    B --> C{选择}
+    C -->|一| D[结果一]
+    C -->|二| E[结果二]
+```
+> 其中 `flowchart LR` 为横从左到右向放置，`flowchart TB` 为纵向从上到下放置 `RL` 、 `BT` 实现反向。  
+> 其中 `flowchart` 也可以用 `graph` 替代。
+
+### 14.1.1 线形
+````
+```mermaid
+graph TB
+  A1 --> B1
+  A2 --- B2
+  A3 -- 描述 --- B3
+  A4 -- 描述 --> B4
+  A5 -.- B5
+  A6 -.-> B6
+  A7 -. 描述 .- B7
+  A8 -. 描述 .-> B8
+  A9 === B9
+  A10 ==> B10
+  A11 == 描述 === B11
+  A12 == 描述 ==> B12
+​```
+````
+
+```mermaid
+graph TB
+  A1 --> B1
+  A2 --- B2
+  A3 -- 描述 --- B3
+  A4 -- 描述 --> B4
+  A5 -.- B5
+  A6 -.-> B6
+  A7 -. 描述 .- B7
+  A8 -. 描述 .-> B8
+  A9 === B9
+  A10 ==> B10
+  A11 == 描述 === B11
+  A12 == 描述 ==> B12
+```
+
+## 14.2 饼图
+````
+```mermaid
+pie
+    title 饼图名称
+    "类别A" : 386
+    "类别B" : 85
+    "类别C" : 150 
+```
+````
+```mermaid
+pie
+    title 饼图名称
+    "类别A" : 386
+    "类别B" : 85
+    "类别C" : 150 
+```
+## 14.3 甘特图
+````
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title       甘特图名称
+    
+    section 类别A
+    已经完成的任务    :         done,     des1,   2014-01-06,  2014-01-08
+    进行中的任务      :         active,   des2,   2014-01-09,  3d
+    未来的任务        :                   des3,   after des2,  5d
+
+    section 类别B
+    完成的关键任务    :crit,    done,             2014-01-06,  24h
+    进行中的关键任务  :crit,    active,                        3d
+    将来的关键任务    :crit,                                   5d
+```
+````
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title       甘特图名称
+    
+    section 类别A
+    已经完成的任务    :         done,     des1,   2014-01-06,  2014-01-08
+    进行中的任务      :         active,   des2,   2014-01-09,  3d
+    未来的任务        :                   des3,   after des2,  5d
+
+    section 类别B
+    完成的关键任务    :crit,    done,             2014-01-06,  24h
+    进行中的关键任务  :crit,    active,                        3d
+    将来的关键任务    :crit,                                   5d
+```
+> 需要更详细的图表画法可以参考[这篇文章](https://blog.csdn.net/qq_32708605/article/details/123801702 "CSDN的文章")。
 
 
 # 十五、Emoji表情
