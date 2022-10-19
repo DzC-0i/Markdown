@@ -460,7 +460,10 @@ $$
 # 十四、图表
 
 
+
 # 十五、Emoji表情
+在 Markdown 里使用 Emoji 表情有两种方法，一种是直接输入 Emoji 表情，另一种是使用 [Emoji 表情短码](https://www.emojiall.com/zh-hans/help-shortcode "点击查看") `emoji shartcodes`。  
+Emoji 表情短码放到两个冒号 `:` 之间，比如： `:joy:` :joy: `:smile:` :smile:  
 
 
 [^1]: 引用的脚注的具体内容.
