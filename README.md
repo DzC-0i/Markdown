@@ -392,18 +392,18 @@ int main()
 ```
 ![这是一个图片](/resource/test.jpg)
 ```
-![这是一个图片](http://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)
+![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)
 ## 11.2 带title的图片
 ```
 ![这是一个图片](/resource/test.jpg "这是一个好看的图片")
 ```
-![这是一个图片](http://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "这是一个好看的图片")
+![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "这是一个好看的图片")
 ## 11.3 带链接的图片
 把生成图片的代码放到了超链接的名称里面。
 ```
-[![这是一个图片](http://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)](http://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "图片所在位置")
+[![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "图片所在位置")
 ```
-[![这是一个图片](http://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)](http://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "图片所在位置")
+[![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "图片所在位置")
 > **注意**：填写本地图片地址时要用相对地址，绝对地址测试不行。  
 > > Markdown所在位置 `/test/test1/README.md`   
 > > 图片所在位置 `/test/test1/resource/test.jpg` 和 `/test/test2/resource/test.jpg`  
