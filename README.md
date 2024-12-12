@@ -324,9 +324,9 @@ int main()
 在 Markdown 里可以创建超链接，以链接到其他 Markdown 页面或网站。
 ### 9.1.1 链接到网站
 ```
-[Spray-echo/Markdown](https://github.com/Spray-echo/Markdown)
+[DzC-0i/Markdown](https://github.com/DzC-0i/Markdown)
 ```
-[Spray-echo/Markdown](https://github.com/Spray-echo/Markdown)
+[DzC-0i/Markdown](https://github.com/DzC-0i/Markdown)
 ### 9.1.2 链接到其他 Markdown 页面
 ```
 [Marakdown 标题](#一标题)
@@ -334,15 +334,15 @@ int main()
 [Marakdown 标题](#一标题)  
 ### 9.1.3 无标签链接
 ```
-<https://github.com/Spray-echo/Markdown>
+<https://github.com/DzC-0i/Markdown>
 ```
-<https://github.com/Spray-echo/Markdown>
+<https://github.com/DzC-0i/Markdown>
 ### 9.1.4 有 title 的链接
 ```
-[Spray-echo/Markdown](https://github.com/Spray-echo/Markdown "跳转Markdown")
+[DzC-0i/Markdown](https://github.com/DzC-0i/Markdown "跳转Markdown")
 [Marakdown 标题](#一标题 "跳转到标题")  
 ```
-[Spray-echo/Markdown](https://github.com/Spray-echo/Markdown "跳转Markdown")  
+[DzC-0i/Markdown](https://github.com/DzC-0i/Markdown "跳转Markdown")  
 [Marakdown 标题](#一标题 "跳转到标题")  
 ## 9.2 和其他元素配合
 ```
@@ -357,7 +357,7 @@ int main()
 这是一个[`在代码里面的链接`](#七代码块)
 ## 9.3 自动超链接
 有些 Markdown 解析器还可以自动解析代码中的链接，并生成无标签链接。  
-若不想链接则可以放入代码块中`https://github.com/Spray-echo/Markdown`
+若不想链接则可以放入代码块中`https://github.com/DzC-0i/Markdown`
 
 
 # 十、添加目录
@@ -392,18 +392,18 @@ int main()
 ```
 ![这是一个图片](/resource/test.jpg)
 ```
-![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)
+![这是一个图片](https://raw.githubusercontent.com/DzC-0i/Markdown/refs/heads/main/.github/images/test.jpg)
 ## 11.2 带title的图片
 ```
 ![这是一个图片](/resource/test.jpg "这是一个好看的图片")
 ```
-![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "这是一个好看的图片")
+![这是一个图片](https://raw.githubusercontent.com/DzC-0i/Markdown/refs/heads/main/.github/images/test.jpg "这是一个好看的图片")
 ## 11.3 带链接的图片
 把生成图片的代码放到了超链接的名称里面。
 ```
-[![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "图片所在位置")
+[![这是一个图片](https://raw.githubusercontent.com/DzC-0i/Markdown/refs/heads/main/.github/images/test.jpg)](https://raw.githubusercontent.com/DzC-0i/Markdown/refs/heads/main/.github/images/test.jpg "图片所在位置")
 ```
-[![这是一个图片](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg)](https://mengxing.tk/images/2022/10/23/16665023236354ceb345978.jpg "图片所在位置")
+[![这是一个图片](https://raw.githubusercontent.com/DzC-0i/Markdown/refs/heads/main/.github/images/test.jpg)](https://raw.githubusercontent.com/DzC-0i/Markdown/refs/heads/main/.github/images/test.jpg "图片所在位置")
 > **注意**：填写本地图片地址时要用相对地址，绝对地址测试不行。  
 > > Markdown所在位置 `/test/test1/README.md`   
 > > 图片所在位置 `/test/test1/resource/test.jpg` 和 `/test/test2/resource/test.jpg`  
